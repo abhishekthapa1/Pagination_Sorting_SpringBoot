@@ -1,0 +1,15 @@
+
+#database-configuration
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pagination_sorting
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  #hibernate configuration
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
